@@ -1,0 +1,22 @@
+﻿namespace org.bmxgg
+
+// 人
+participant User identified by id{
+  o String id
+  o String name
+  o String type
+}
+
+// モノ
+asset Blood identified by id{
+  o String id
+  o String user_id
+  o String type
+  o Integer amount
+}
+
+// トランザクション
+transaction ChangeOwner{
+  o String blood_id
+  o String user_id
+}
