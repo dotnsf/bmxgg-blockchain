@@ -4,4 +4,4 @@
 
 ## Copyright
 
-2018 K.Kimura @ IBM Japan all rights reserved.
+2019 K.Kimura all rights reserved.
